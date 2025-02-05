@@ -112,7 +112,6 @@ body {
 .recomendaciones li{
     list-style: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
     user-select: none;
 }
 .recomendaciones a:hover{
@@ -199,7 +198,7 @@ body {
 
 .specifications textarea:focus {
     outline: none;
-    border-color: #7a18c9;
+    border-color: #4c1678;
     box-shadow: 0 0 5px rgba(122, 24, 201, 0.5);
 }
 
@@ -235,21 +234,21 @@ body {
     margin-top: 10px;
 }
 .pay-btn {
-    background-color: #7a18c9;
+    background-color: rgb(1, 1, 131);
     color: white;
 }
 
 .pay-btn:hover {
-    background-color: #871bec;
+    background-color: rgb(44, 44, 255);
 }
 
 .text-btn {
-    background-color: #ceb44c;
+    background-color: #4c007d;
     color: white;
 }
 
 .text-btn:hover {
-    background-color: #ab8b1a;
+    background-color: #7f00b2;
 }
 
 .mercado-btn{
@@ -260,12 +259,12 @@ body {
     background-color: #52a3ebe9;
 }
 .whatsapp-btn {
-    background-color: #12946b;
+    background-color: #12942c;
     color: white;
 }
 
 .whatsapp-btn:hover {
-    background-color: #1dad95e9;
+    background-color: #1dad65e9;
 }
 
 /* Modal */
@@ -353,7 +352,7 @@ body {
 /* Pie de página */
 .footer {
     text-align: center;
-    background: #333;
+    background: #000000;
     color: white;
     padding: 10px;
     font-size: 14px;
@@ -429,4 +428,5 @@ body {
         left: 5px;
     }
 }
+
 
