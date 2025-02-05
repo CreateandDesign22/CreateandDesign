@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     background-color: #eeeeeb;
 }
 
@@ -150,7 +150,12 @@ a {
 }
 
 .medio{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'arial';
+    color: white;
+    background-color: #02103f;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .cta {
@@ -167,7 +172,7 @@ a {
     left: 0;
     display: block;
     border-radius: 28px;
-    background: rgba(133, 218, 243, 0.5);
+    background: #423dc7;
     width: 56px;
     height: 56px;
     transition: all 0.3s ease;
@@ -198,7 +203,7 @@ a {
 
 .cta:hover:before {
     width: 100%;
-    background: #64dbf3;
+    background: #3489ff;
 }
 
 .cta:hover svg {
@@ -350,14 +355,15 @@ button:hover {
 .section-title {
     text-align: left;
     padding: 20px;
-    background-color: white;
+    background-color: #02103f;
     margin-bottom: 10px;
 }
 
 .section-title h2 {
     font-size: 24px;
-    color: #333;
+    color: white;
     margin: 0;
+    text-align: center;
 }
 
 .cours-container {
@@ -416,7 +422,7 @@ button:hover {
 }
 
 footer {
-    background-color: #212121; /* Fondo negro solo para el footer */
+    background-color: #02103f; /* Fondo negro solo para el footer */
     text-align: center;
     padding: 20px;
     margin-top: 30px;
@@ -428,7 +434,7 @@ footer h3{
     color: rgb(166, 209, 231);
     font-size: 24px;
     margin-bottom: 10px;
-    font-family:'Times New Roman', Times, serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .redsocial{
@@ -448,7 +454,7 @@ footer h3{
 footer p {
     font-size: 16px;
     color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: arial;
 }
 
 footer strong{
